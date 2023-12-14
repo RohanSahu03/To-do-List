@@ -24,20 +24,30 @@ body {
 }
 .listcontainer>.list{
     display: flex;
-    justify-content: center;
-  background-color: rgb(31, 29, 29);
-    color: blanchedalmond;
+    justify-content: flex-start;
+    align-items: center;
+  background-color: rgb(107, 176, 39);
+    color: black;
     margin-top: 5px;
-    font-size: 15px;
-    width: 300px;
+    font-size: 17px;
+    width: 280px;
     flex-wrap: wrap;
-
-
+    font-family: 'Nova Square', sans-serif;
+    margin-left: 15px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 32px;
 }
-.listcontainer>.MdDeleteForever{
-   
-    width: 6%;
-    height: 18px;
+.MdDeleteForever{
+    width: 10%;
+    height: 28px;
     margin-top: 10px;
-    
+    color: white; 
+}
+.edit{
+    width: 6%;
+        height: 28px;
+        margin-top: 10px;
+        color: white;
 }

@@ -6,28 +6,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .main{
 
-  
-   background: linear-gradient(#c2e59c,#64b3f4);
-   min-height: 400px;
+  border-radius: 4px;
+  background-color: #30336b;
+   min-height: 600px;
     width: 400px;
-    border-radius: 15px; 
-    box-shadow: 2px 2px 8px 1px black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-   
-
+   margin-top: 50px;
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .todoHeading{
    text-align: center;
    width: 100%;
 }
 h1{
-    color: chocolate;
+    color: rgb(221, 197, 180);
+    font-family: 'Amatic SC', sans-serif;
+    margin-top: 20px;
 }
 .todo_input{
     height: 32px;
@@ -39,13 +40,20 @@ h1{
     font-size: 17px;
     border-style: none;
     color:black;
+    padding-left: 10px;
+    font-family: 'Nova Square', sans-serif;
+    position: relative;
+    left: 8px;
+
 
 }
 .addCircle{
     width: 40px;
      height: 40px;
    position: relative;
-   bottom: 5px;
+   bottom: 2px;
+   left: 8px;
+   color: white;
 
 }
 

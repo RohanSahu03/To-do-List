@@ -10,6 +10,7 @@ function Todo() {
 
     const [inputList,setInputList]=useState("");
     const [items,setItems] = useState([])
+   
     
     const listOfItem=()=>{
         setItems((oldarray)=>{
@@ -33,14 +34,14 @@ function Todo() {
         })
     
     }
-
+    
 
     return (
         <div>
             <div className={style.main}>
 
                 <div className={style.todoHeading}>
-                    <h1 >To-do List</h1>
+                    <h1 >Manage your Todo</h1>
                     <br />
                     <input type="text" value={inputList} placeholder='add an item' className={style.todo_input} onChange={inputHandler} />
                     <IoIosAddCircle className={style.addCircle}  onClick={listOfItem}/>
@@ -52,6 +53,7 @@ function Todo() {
             id={index} 
             key={index}
             onSelect={deleteItem}
+      
             />;
        
           })}
@@ -59,6 +61,7 @@ function Todo() {
 
                 
             </div>
+            
         </div>
     )
 }

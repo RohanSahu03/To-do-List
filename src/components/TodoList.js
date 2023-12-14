@@ -2,6 +2,7 @@ import React from 'react'
 import style from '../todolist.module.css'
 import { MdDeleteForever } from "react-icons/md";
 
+
 function TodoList(props) {
    
         return (
@@ -9,7 +10,7 @@ function TodoList(props) {
         
                 <li className={style.list}>{props.newdata}</li><MdDeleteForever className={style.MdDeleteForever} onClick={() => {
                     props.onSelect(props.id)
-                }} /> 
+                }} />
                     
             </div>
         )
